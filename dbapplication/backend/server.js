@@ -4,12 +4,13 @@ const sqlite3 = require('sqlite3').verbose();
 
 const bodyParser = require('body-parser');
 
-
+const cors = require('cors');  // Import CORS
 
 const app = express();
 
 const port = 3000;
 
+app.use(cors());  // Enable CORS for all requests
 
 
 // Middleware to parse JSON bodies
