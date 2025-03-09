@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/advwebdev/node_modules
+/dbapplication/backend/node_modules
+/dbapplication/frontend/node_modules
+/mypage/node_modules
